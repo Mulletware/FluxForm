@@ -39,7 +39,9 @@ Kubernetes is an open-source platform that automates the deployment, scaling, an
                 * When you replace a container image on worker nodes
                 * Changes parameters in a worker node
             
-            * [***cloud-controller-manager***](https://kubernetes.io/docs/concepts/architecture/#cloud-controller-manager)
+            * [***cloud-controller-manager***](https://kubernetes.io/docs/concepts/architecture/#cloud-controller-manager) ***(optional)***: A Kubernetes control plane component that embeds cloud-specific control logic. The cloud controller manager lets you link your cluster into your cloud provider's API, and separates out the components that interact with that cloud platform from components that only interact with your cluster.
+                * At the time of writing, Cloud Controller Manager is a <span style="color:#F57120">***feature state***</span> of <span style="color:#F57120">Kubernetes v1.11</span> 
+                * Here are the docs to the [beta](https://kubernetes.io/docs/concepts/architecture/cloud-controller/) 
 
         ## <span style="color:#54D2EB">The Job of a Node</span>
         * A ***node*** is a worker machine in Kubernetes, responsible for running containerized applications. It hosts the necessary services to support the running pods and communicate with the master to ensure the cluster operates smoothly.
