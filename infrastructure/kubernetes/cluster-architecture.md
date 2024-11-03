@@ -16,7 +16,7 @@ Kubernetes is an open-source platform that automates the deployment, scaling, an
         
             [Install it on Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 
-            [Install it on Windows](hhttps://kubernetes.io/docs/tasks/tools/install-kubectl-windows/)
+            [Install it on Windows](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/)
 
             [Install it on Macos](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/)
 
