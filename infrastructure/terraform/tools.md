@@ -80,7 +80,7 @@ Tfsec can either be run locally or in automated CI/CD environments before terraf
 
 ![Tfsec Example](../../assets/terraform/tfsec.png)
 
-## [Terragrunt](https://terragrunt.gruntwork.io/)
+## [**Terragrunt**](https://terragrunt.gruntwork.io/)
 Terragrunt offers additional tools to :  
 * Your terraform configurations less redundant (DRY) 
 * Manage remote state with ease by streamlining remote state management for multiple modules.
@@ -88,7 +88,7 @@ Terragrunt offers additional tools to :
 
 **It’s especially helpful for managing large-scale infrastructure setups with Terraform.**
 
-## [Infracost](https://github.com/infracost/infracost)
+## [**Infracost**](https://github.com/infracost/infracost)
 Infracost shows cloud cost estimates and FinOps best practices for Terraform. It lets engineers see a cost breakdown and understand costs before making changes, either in the terminal, VS Code or pull requests.
 
 ### Why use Infracost?
@@ -106,3 +106,10 @@ Infracost shows cloud cost estimates and FinOps best practices for Terraform. It
 
 * Got a boss who likes visuals?
 ![Infracost Cloud Chart Example](../../assets/terraform/infracost_cloud_dashboard_chart.png)
+
+
+
+## Terraform-docs
+A utility to generate documentation from Terraform modules in various output formats.
+
+## Atlantis
